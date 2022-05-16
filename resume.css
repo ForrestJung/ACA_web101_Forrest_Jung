@@ -1,0 +1,170 @@
+body {
+    width: 612px;
+    height: 880px;
+    padding: 15px;
+    border-right: solid;
+    border-left: solid;
+    color: blue;
+
+}
+
+header {
+   align-self: center;
+   padding: 10px;
+   text-align: center;
+   background: lightblue;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 150px;
+    float: right;
+    background-color: darkblue;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+h1 {
+    color: darkblue;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkblue;
+    text-decoration: none;
+}
+
+h3 {
+    color: darkblue;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+h3 > p {
+    overflow-wrap: normal;
+    max-width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+div {
+    background: lightblue;
+    padding: 10px;
+}
+
+.inline-content {
+    display: flex;
+    max-width: 612px;
+    border-bottom: solid;
+    padding: 10px;
+}
+
+.contact-text {
+
+}
+
+.moreinfo {
+    display: grid;
+    grid-template-columns: 5fr 2fr 7fr;
+    grid-template-rows: 200px 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+li {
+    justify-content: left;
+    justify-items: left;
+    float: left;
+}
+
+.workexperience {
+    grid-column: 1;
+    grid-row: 1;
+    color: darkblue;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.pastemployment {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+.jobresponsibility {
+    grid-column: 3;
+    grid-row: 1;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.education {
+    grid-column: 1;
+    grid-row: 2;
+    color: darkblue;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.schools {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.degrees {
+    grid-column: 3;
+    grid-row: 2;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.twitter {
+    max-width: 15px;
+    max-height: 15px;
+    padding: 5px;
+}
+
+.facebook {
+    max-width: 15px;
+    max-height: 15px;
+    padding: 5px;
+
+}
+
+.instagram {
+    max-width: 15px;
+    max-height: 15px;
+    padding: 5px;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
